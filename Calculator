@@ -1,7 +1,11 @@
 Console.WriteLine("Maryam Zahid");
 Console.writeLine("24-ST-010");
 
+ Multiplication
 MULTIPLY TWO NUMBERS
+=======
+ADD TWO NUMBERS
+ main
 using System;
 
 class Program
@@ -14,8 +18,14 @@ class Program
         Console.Write("Enter second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
+ Multiplication
         double product = num1 * num2;
 
         Console.WriteLine($"The product of {num1} and {num2} is {product}");
+=======
+        double sum = num1 + num2;
+
+        Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
+ main
     }
 }
