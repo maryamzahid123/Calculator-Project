@@ -1,6 +1,7 @@
 Console.WriteLine("Maryam Zahid");
 Console.writeLine("24-ST-010");
 
+ Multiplication
  Division
 DIVIDE TWO NUMBERS
 =======
@@ -10,6 +11,13 @@ MULTIPLY TWO NUMBERS
 ADD TWO NUMBERS
  main
  main
+=======
+ Subtraction
+SUBTRACT TWO NUMBERS
+
+ADD TWO NUMBERS
+main
+ Subtraction
 using System;
 
 class Program
@@ -22,6 +30,7 @@ class Program
         Console.Write("Enter second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
+ Multiplication
  Division
         if (num2 != 0)
         {
@@ -38,10 +47,20 @@ class Program
 
         Console.WriteLine($"The product of {num1} and {num2} is {product}");
 =======
+=======
+Subtraction
+        double difference = num1 - num2;
+
+        Console.WriteLine($"The difference between {num1} and {num2} is {difference}");
+
+ Subtraction
         double sum = num1 + num2;
 
         Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
  main
+ Multiplication
  main
+=======
+ Subtraction
     }
 }
