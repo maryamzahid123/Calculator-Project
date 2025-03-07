@@ -2,10 +2,22 @@ Console.WriteLine("Maryam Zahid");
 Console.writeLine("24-ST-010");
 
  Multiplication
+ Division
+DIVIDE TWO NUMBERS
+=======
+ Multiplication
 MULTIPLY TWO NUMBERS
 =======
 ADD TWO NUMBERS
  main
+ main
+=======
+ Subtraction
+SUBTRACT TWO NUMBERS
+
+ADD TWO NUMBERS
+main
+ Subtraction
 using System;
 
 class Program
@@ -19,13 +31,36 @@ class Program
         double num2 = Convert.ToDouble(Console.ReadLine());
 
  Multiplication
+ Division
+        if (num2 != 0)
+        {
+            double quotient = num1 / num2;
+            Console.WriteLine($"The quotient of {num1} divided by {num2} is {quotient}");
+        }
+        else
+        {
+            Console.WriteLine("Division by zero is not allowed.");
+        }
+=======
+ Multiplication
         double product = num1 * num2;
 
         Console.WriteLine($"The product of {num1} and {num2} is {product}");
 =======
+=======
+Subtraction
+        double difference = num1 - num2;
+
+        Console.WriteLine($"The difference between {num1} and {num2} is {difference}");
+
+ Subtraction
         double sum = num1 + num2;
 
         Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
  main
+ Multiplication
+ main
+=======
+ Subtraction
     }
 }
