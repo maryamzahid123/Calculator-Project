@@ -1,7 +1,11 @@
 Console.WriteLine("Maryam Zahid");
 Console.writeLine("24-ST-010");
 
+ Subtraction
 SUBTRACT TWO NUMBERS
+
+ADD TWO NUMBERS
+main
 using System;
 
 class Program
@@ -14,8 +18,14 @@ class Program
         Console.Write("Enter second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
+Subtraction
         double difference = num1 - num2;
 
         Console.WriteLine($"The difference between {num1} and {num2} is {difference}");
+
+        double sum = num1 + num2;
+
+        Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
+ main
     }
 }
